@@ -1,9 +1,9 @@
 class TicTacToe:
-    def __init__(self, board)
+    def __init__(self, board):
         self.board = ['' for _ in range(9)] # this is for the board
 
 
-    def print_board(self)
+    def print_board(self):
         for row in [self.board(i*3:(i+1)*3) for i in range(3)]
             print('| ' + ' | '.join(row) + ' |')
 
